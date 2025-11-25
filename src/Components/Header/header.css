@@ -1,0 +1,22 @@
+.header-container{
+    border:1px solid black;
+    padding:0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.header-list-container{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}

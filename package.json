@@ -1,0 +1,18 @@
+{
+  "name": "reactask",
+  "version": "1.0.0",
+  "description": "This are the task given from the companies when i was interviews ",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "author": "Naveen S Belandur",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.9.6"
+  }
+}

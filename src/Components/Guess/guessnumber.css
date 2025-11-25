@@ -1,0 +1,23 @@
+.guess_container{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.btn-container{
+    width: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:2rem;
+}
+
+.random_input{
+    width: 30%;
+    padding: 10px;
+}
