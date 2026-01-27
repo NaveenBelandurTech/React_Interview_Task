@@ -55,7 +55,7 @@ const App = () => {
           by leading companies such as Meta (Facebook) and Zoom for Frontend
           Developer roles. Each task is presented with a clear problem statement
           and its corresponding solution. The links below contain all
-          implementations.
+          implementations.   
         </p>
         <ul className='list__item'>
           {navLinks.map(({ path, className },i) => {
