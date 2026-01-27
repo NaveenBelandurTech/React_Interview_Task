@@ -4,7 +4,8 @@
   "description": "This are the task given from the companies when i was interviews ",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build":"parcel build index.html"
   },
   "author": "Naveen S Belandur",
   "license": "ISC",
