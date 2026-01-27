@@ -1,0 +1,11 @@
+.container_readMore{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.btn_read_more{
+
+}

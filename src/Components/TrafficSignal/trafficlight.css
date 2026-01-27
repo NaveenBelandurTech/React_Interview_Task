@@ -1,0 +1,31 @@
+.traffic_container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap:1rem;
+}
+
+.circle{
+    width:3%;
+    height:5%;
+    border:1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.circle_red{
+    background-color: red;
+    color: white;
+}
+
+.circle_yellow{
+    background-color: yellow;
+    color: white;
+}
+
+.circle_green{
+    background-color: green;
+    color: white; 
+}

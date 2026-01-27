@@ -1,0 +1,8 @@
+.header__{
+    border:1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+}

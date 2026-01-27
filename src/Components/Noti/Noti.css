@@ -1,0 +1,46 @@
+.container__{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+
+
+.banner_Success{
+    padding: 1rem;
+    border:1px solid green;
+    background-color: green;
+    color:white;
+}
+
+.banner_Error{
+    padding: 1rem;
+    border:1px solid red;
+    background-color: red;
+    color:white;
+}
+
+.banner_Info{
+    padding: 1rem;
+    border:1px solid blue;
+    background-color: blue;
+    color:white;
+}
+
+.btn__row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:1rem;
+}
+
+
+
+.banner__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

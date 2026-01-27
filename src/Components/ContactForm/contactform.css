@@ -1,0 +1,29 @@
+.container_form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  position: relative;
+}
+
+.container__ {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 1px black;
+  position: absolute;
+  z-index: 1;
+}
+
+.form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.text__align {
+  text-align: center;
+}

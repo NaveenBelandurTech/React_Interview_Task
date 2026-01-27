@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;  
+    cursor: pointer;
+}
+
+.container_{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.app_container{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.flex_item{
+    list-style-type: none;
+
+}
+
+.list__item{
+   padding: 1rem;
+   display:flex;
+   flex-direction: row;
+   gap:1rem;
+   flex-wrap: wrap;
+}
+
+.width___{
+    width: 100%;
+}

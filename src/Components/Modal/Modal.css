@@ -1,0 +1,19 @@
+.container{
+    height: 50vh;
+    position: relative;
+
+}
+
+.btn_container{
+    width: 30%;
+    border:1px solid blue;
+    background-color: blue;
+    color:white;
+    padding: 0.8rem;
+    cursor: pointer;
+    border-radius:0.5rem;
+}
+
+.text__{
+    position: relative;
+}
