@@ -29,8 +29,8 @@ const Autosave = () =>{
         <h3>Auto Save</h3>
         <p>Auto Save -{localStorage.getItem('Title') && localStorage.getItem('Title')}</p>
         <input type='text' value={title} onChange={handleChange} />
-        <button onClick={handleSubmit}>Submit</button>
-        <button onClick={handleClick}>Clear</button>
+        <button className='button_'onClick={handleSubmit}>Submit</button>
+        <button className='button_' onClick={handleClick}>Clear</button>
         </div>
         </section>
     )

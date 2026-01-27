@@ -47,9 +47,9 @@ useEffect(()=>{
     
     <section className='row___'>
       <div className='btn__row'>
-      <button onClick={handleClickShow}>Show Success</button>
-      <button onClick={hanldeClickError}>Show Error</button>
-      <button onClick={handleClickInfo}>Show Info</button>
+      <button className='button_'onClick={handleClickShow}>Show Success</button>
+      <button className='button_' onClick={hanldeClickError}>Show Error</button>
+      <button className='button_' onClick={handleClickInfo}>Show Info</button>
       </div>
       <div  className='banner__container'>
       {Notification.map((data,i)=>{

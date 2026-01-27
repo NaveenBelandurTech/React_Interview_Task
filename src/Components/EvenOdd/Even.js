@@ -9,28 +9,14 @@ const EvenOdd = () =>{
 
 
     const handleChange = (e)=>{
-            if (e.target.value === '') {
-      setText({
-        count: '',
-        title: 'Cannot be empty'
-      })
-    } else {
       setText({
         count: e.target.value,
         title: ''
       })
-    }
-       
-
-
-          
+    
     }
 
     const handleSubmit = ()=>{
-
-        if(text.count == ''){
-            return setText({title:'cannot be empty'})
-        }
            if(text.count % 2 == 0){
             setText({
                 ...text,
@@ -53,7 +39,7 @@ const EvenOdd = () =>{
         <h3>Even Odd Checker</h3>
         <p>{text.title}</p>
         <input type='text' value={text.count} onChange={handleChange}/>
-        <button onClick={handleSubmit}>Submit</button>
+        <button className='button_' onClick={handleSubmit}>Submit</button>
         </div>
         </section>
     )

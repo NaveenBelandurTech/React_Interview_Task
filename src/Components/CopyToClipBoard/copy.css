@@ -1,12 +1,113 @@
-.container__{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 2rem;
+
+.container__ {
+  width: 100%;
+  margin: 4rem auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
 }
 
-.input_container{
-    width: 30%;
-border:1px solid black;
+
+.width___ {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+
+.width___ h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #111827;
+  text-align: center;
+}
+
+.width___ > p {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+
+.input_container {
+  width: 100%;
+  padding: 1.5rem;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+
+.input_container > p:first-child {
+  font-size: 0.85rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+
+.input_container input {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.input_container input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+
+.input_container button {
+  margin-top: 0.5rem;
+  padding: 0.65rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  background: #4f46e5;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.input_container button:hover {
+  background: #4338ca;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(79, 70, 229, 0.3);
+}
+
+.input_container button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+
+.input_container > p:last-child {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: center;
+  color: #4f46e5;
+}
+
+
+@media (max-width: 480px) {
+  .container__ {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+
+  .input_container {
+    padding: 1.25rem;
+  }
 }

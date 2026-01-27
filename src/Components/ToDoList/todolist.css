@@ -1,0 +1,145 @@
+
+.container_ {
+  max-width: 520px;
+  margin: 4rem auto;
+  padding: 2rem;
+
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+
+.container_ h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+
+.container_ form {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.container_ input {
+  flex: 1;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.container_ input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+
+.container_ form button {
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  background: #4f46e5;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.container_ form button:hover {
+  background: #4338ca;
+}
+
+
+.container_ ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+
+.container_ ul > div {
+  padding: 0.75rem 1rem;
+  background: #f9fafb;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.container_ li {
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+
+.container_ ul p {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  text-align: center;
+}
+
+.container_ ul p:first-of-type {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.container_ ul p:last-of-type {
+  background: #dcfce7;
+  color: #166534;
+}
+
+
+.container_ ul button {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+
+.container_ ul button:first-of-type {
+  background: #3b82f6;
+  color: #ffffff;
+}
+
+.container_ ul button:first-of-type:hover {
+  background: #2563eb;
+}
+
+
+.container_ ul button:last-of-type {
+  background: #ef4444;
+  color: #ffffff;
+}
+
+.container_ ul button:last-of-type:hover {
+  background: #dc2626;
+}
+
+
+@media (max-width: 480px) {
+  .container_ {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+
+  .container_ ul > div {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+}
