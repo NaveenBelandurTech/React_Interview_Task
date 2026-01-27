@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import './ReadMore.css'
+
 
 const ReadMore = () =>{
     const [textMore,setTextMore] = useState(true)
@@ -19,7 +19,7 @@ const ReadMore = () =>{
         <section className='container_readMore'>
         <h3>Read More Component</h3>
         <p>{textMore ? `${text.slice(0,100)}...` : text}</p>
-        <button className='btn_read_more' onClick={handleClick}>{textMore ? 'Read More' : 'Read Less'}</button>
+        <button className='button_' onClick={handleClick}>{textMore ? 'Read More' : 'Read Less'}</button>
         </section>
         </>
     )

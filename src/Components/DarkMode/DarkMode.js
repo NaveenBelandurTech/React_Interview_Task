@@ -10,7 +10,7 @@ const DarkMode = () => {
   return (
     <section className={toggle ? `container_darkMode` : `darkMode__`}>
       <h2>{toggle ? "Light Mode" : "Dark Mode"}</h2>
-      <button onClick={handleClick}>
+      <button className='button_'onClick={handleClick}>
         {toggle ? "Light Mode" : "Dark Mode"}
       </button>
     </section>

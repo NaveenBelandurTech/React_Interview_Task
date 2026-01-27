@@ -5,9 +5,9 @@ import { FaReact } from "react-icons/fa";
 
 const Header = () => {
   const navLinks = [
-    { className: "link", path: "/ChipsInput" },
-    { className: "link", path: "/Accordion" },
-    { className: "link", path: "/GuessNumber" },
+    { className: "link_", path: "/ChipsInput" },
+    { className: "link_", path: "/Accordion" },
+    { className: "link_", path: "/GuessNumber" },
     // { className: "link", path: "/Counter" },
     // { className: "link", path: "/ToDoList" },
     // { className: "link", path: "/autosave" },

@@ -29,10 +29,12 @@
   animation: bg;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  margin: 1rem;
 }
 
 .para {
   width: 80%;
+  margin: 1rem;
   border: 1px solid grey;
   padding: 0.5rem;
   border-radius: 1rem;
@@ -44,6 +46,7 @@
 
 .para_ {
   width: 100%;
+  margin: 1rem;
   border: 1px solid grey;
   padding: 0.5rem;
   border-radius: 1rem;
@@ -53,16 +56,15 @@
   animation-iteration-count: infinite;
 }
 
-.item{
-    padding: 2rem;
+.item {
+  padding: 2rem;
 }
 
 @keyframes bg {
-   from{
+  from {
     opacity: 0.2;
-   }
-   to{
- opacity: 1;
-   }
+  }
+  to {
+    opacity: 1;
+  }
 }
-

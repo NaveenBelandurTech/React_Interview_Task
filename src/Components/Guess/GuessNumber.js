@@ -63,6 +63,7 @@ const GuessNumber = () => {
           value={guess}
           onChange={handleChange}
         />
+        <p style={{display:"inline-block",fontSize:'10px'}}>note:Check the inspect console for the guess number</p>
         <div className="btn-container">
           <button onClick={handleClick}>Check Guess</button>
           <button onClick={handleReset}>Reset Game</button>
