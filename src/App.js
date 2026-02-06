@@ -22,6 +22,8 @@ import Notification from "./Components/Noti/Notification";
 import { Link } from "react-router";
 import TrafficLight from "./Components/TrafficSignal/TrafficLight";
 import Tab from "./Components/Tab/Tab";
+import { FocusInput } from "./Components/FocusInput/FocusInput";
+import ProgressBar from './Components/ProgressBar/ProgressBar'
 
 const navLinks = [
   { className: "link", path: "/ChipsInput" },
@@ -42,6 +44,8 @@ const navLinks = [
   { className: "link", path: "/Notification" },
   { className: "link", path: "/TrafficLight" },
   { className: "link", path: "/Tab" },
+  { className: "link", path: "/Focus" },
+    { className: "link", path: "/ProgressBar" },
 ];
 
 
@@ -156,6 +160,15 @@ const AppRouter = createBrowserRouter([
         path: "/Tab",
         element:<Tab/>
       },
+      {
+        path:'/focus',
+        element:<FocusInput/>
+      },
+         {
+        path:'/ProgressBar',
+        element:<ProgressBar/>
+      },
+      
     ],
   },
 ]);
