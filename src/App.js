@@ -29,6 +29,12 @@ import ColorComponent from "./Components/ColorComponent/ColorComponent";
 import ToogleSwitch from "./Components/ToogleSwitch/Toogle";
 import TooglePassword from "./Components/Toogle/TooglePassword";
 import BlogPost from "./Components/BlogPost/BlogPost";
+import DataTable from "./Components/DataTable/DataTable";
+import ImageCorse from "./Components/ImageCorsuel/ImageCorsuel";
+import SortList from "./Components/SortList/SortList";
+import { ModalLarge } from "./Components/Modallarge/ModalLarge";
+import { Capatch } from "./Components/Generator/Capatch";
+
 
 const navLinks = [
   { className: "link", path: "/ChipsInput" },
@@ -56,7 +62,16 @@ const navLinks = [
   { className: "link", path: "/ToogleSwitch" },
   { className: "link", path: "/tooglePassword" },
   { className: "link", path: "/blogPost" },
+  { className: "link", path: "/DataTableHard" },
+  { className: "link", path: "/ImageCarsouel" },
+  { className: "link", path: "/sortList" },
+  { className: "link", path: "/modalLarge" },
+   { className: "link", path: "/captch" },
+
+
+
 ];
+
 
 const App = () => {
   return (
@@ -197,6 +212,28 @@ const AppRouter = createBrowserRouter([
         path: "/blogPost",
         element: <BlogPost />,
       },
+      {
+        path:'/DataTableHard',
+        element:<DataTable/>
+      },
+      {
+        path:'/ImageCarsouel',
+        element:<ImageCorse/>
+      },
+        {
+        path:'/sortList',
+        element:<SortList/>
+      },
+       {
+        path:'/modalLarge',
+        element:<ModalLarge/>
+       },
+       {
+        path:'/captch',
+        element:<Capatch/>
+       }
+       
+     
     ],
   },
 ]);
