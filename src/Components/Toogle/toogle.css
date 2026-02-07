@@ -1,0 +1,16 @@
+.toogle_container{
+    position: relative;
+}
+
+.icons__{
+    position: absolute;
+    left:28rem;
+    top:1rem;
+    cursor: pointer;
+}
+
+#test{
+    width: 50%;
+    padding: 1rem;
+    
+}

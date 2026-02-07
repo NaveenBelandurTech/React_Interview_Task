@@ -1,0 +1,12 @@
+.container_{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tags_{
+    display:flex;
+    flex-direction: row;
+    
+}

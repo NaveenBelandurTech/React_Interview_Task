@@ -23,7 +23,12 @@ import { Link } from "react-router";
 import TrafficLight from "./Components/TrafficSignal/TrafficLight";
 import Tab from "./Components/Tab/Tab";
 import { FocusInput } from "./Components/FocusInput/FocusInput";
-import ProgressBar from './Components/ProgressBar/ProgressBar'
+import ProgressBar from "./Components/ProgressBar/ProgressBar";
+import CharCount from "./Components/CharCount/CharCount";
+import ColorComponent from "./Components/ColorComponent/ColorComponent";
+import ToogleSwitch from "./Components/ToogleSwitch/Toogle";
+import TooglePassword from "./Components/Toogle/TooglePassword";
+import BlogPost from "./Components/BlogPost/BlogPost";
 
 const navLinks = [
   { className: "link", path: "/ChipsInput" },
@@ -45,9 +50,13 @@ const navLinks = [
   { className: "link", path: "/TrafficLight" },
   { className: "link", path: "/Tab" },
   { className: "link", path: "/Focus" },
-    { className: "link", path: "/ProgressBar" },
+  { className: "link", path: "/ProgressBar" },
+  { className: "link", path: "/CharCount" },
+  { className: "link", path: "/ColorComponent" },
+  { className: "link", path: "/ToogleSwitch" },
+  { className: "link", path: "/tooglePassword" },
+  { className: "link", path: "/blogPost" },
 ];
-
 
 const App = () => {
   return (
@@ -59,17 +68,17 @@ const App = () => {
           by leading companies such as Meta (Facebook) and Zoom for Frontend
           Developer roles. Each task is presented with a clear problem statement
           and its corresponding solution. The links below contain all
-          implementations.   
+          implementations.
         </p>
-        <ul className='list__item'>
-          {navLinks.map(({ path, className },i) => {
+        <ul className="list__item">
+          {navLinks.map(({ path, className }, i) => {
             return (
-                <li key={i+1} className='flex_item'>
-                  {" "}
-                  <Link to={path} className={className}>
-                    {path.replace("/", "")}
-                  </Link>
-                </li>
+              <li key={i + 1} className="flex_item">
+                {" "}
+                <Link to={path} className={className}>
+                  {path.replace("/", "")}
+                </Link>
+              </li>
             );
           })}
         </ul>
@@ -152,23 +161,42 @@ const AppRouter = createBrowserRouter([
         path: "/Notification",
         element: <Notification />,
       },
-         {
+      {
         path: "/TrafficLight",
-        element:<TrafficLight/>
-      },
-       {
-        path: "/Tab",
-        element:<Tab/>
+        element: <TrafficLight />,
       },
       {
-        path:'/focus',
-        element:<FocusInput/>
+        path: "/Tab",
+        element: <Tab />,
       },
-         {
-        path:'/ProgressBar',
-        element:<ProgressBar/>
+      {
+        path: "/focus",
+        element: <FocusInput />,
       },
-      
+      {
+        path: "/ProgressBar",
+        element: <ProgressBar />,
+      },
+      {
+        path: "/CharCount",
+        element: <CharCount />,
+      },
+      {
+        path: "/ColorComponent",
+        element: <ColorComponent />,
+      },
+      {
+        path: "/ToogleSwitch",
+        element: <ToogleSwitch />,
+      },
+      {
+        path: "/tooglePassword",
+        element: <TooglePassword />,
+      },
+      {
+        path: "/blogPost",
+        element: <BlogPost />,
+      },
     ],
   },
 ]);
